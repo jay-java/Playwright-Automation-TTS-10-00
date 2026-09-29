@@ -8,10 +8,12 @@ print('hello "automation" testers')
 
 a = 10
 print(a)
+print(type(a))
 b = 324.453
 print(b)
+print(type(b))
 
 name ="python"
 print(name)
-
+print(type(name))
 

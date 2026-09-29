@@ -1,5 +1,4 @@
 # for /for in
-from xml.dom.pulldom import PROCESSING_INSTRUCTION
 
 for i in range(5, 11):
     print(i)
@@ -49,10 +48,27 @@ for i in range(1,6): #row
         print("* ",end='')
     print()
 
-
 for i in range(1,6):
     for s in range(2,i+1):
         print(" ",end='')
     for j in range(5,i-1,-1):
         print("* ",end='')
     print()
+
+num =1
+for i1 in range(1,6):
+    for j1 in range(1,i1+1):
+        print(num,end=' ')
+        num = num + 1
+    print()
+
+for i1 in range(1,6):
+    for j1 in range(1,i1+1):
+        # print('i1 = ',i1,'j1 = ',j1,end='->')
+        if (i1+j1) % 2 == 0:
+            print('1',end=' ')
+        else:
+            print('0',end=' ')
+    print()
+
+
