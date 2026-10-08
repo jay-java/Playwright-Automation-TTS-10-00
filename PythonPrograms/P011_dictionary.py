@@ -19,7 +19,7 @@ d2 = {
 d1.update(d2)
 print(d1)
 
-print(d1.get(1))
+print(d1.get(2))
 
 for i in d1:
     print(i, " : ",d1[i])
