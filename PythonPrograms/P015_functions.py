@@ -52,7 +52,7 @@ def createAccount(*args):
 # 3.with return type without parameter
 def funName1():
     print('with return type without parameter')
-    return "123"
+    return 321.145
 
 
 # 4.with return type with parameter

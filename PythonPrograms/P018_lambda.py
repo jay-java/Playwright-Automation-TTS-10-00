@@ -1,4 +1,3 @@
-
 def fun1():
     print('fun 1')
 
@@ -8,6 +7,13 @@ def fun1():
     fun2()
 
 fun1()
+
+n1= "python"
+def changeToUpper(data):
+    print(data.upper())
+
+changeToUpper(n1)
+
 
 # Lambda functions- >anonymous function, they do not have a defined name
 
@@ -29,3 +35,5 @@ print(addition)
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 even = filter(lambda i: i % 2 == 0, nums)
 print(list(even))
+
+
