@@ -5,7 +5,7 @@ class User:
     id = 0
     name =""
     contact =0
-
+    #default cons
     def __init__(self):
         print("this is init")
 
