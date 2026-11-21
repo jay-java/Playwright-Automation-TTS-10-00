@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Automation Playwright TTS 10-00.iml" filepath="$PROJECT_DIR$/.idea/Automation Playwright TTS 10-00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/playwrighttest.iml" filepath="$PROJECT_DIR$/.idea/playwrighttest.iml" />
     </modules>
   </component>
 </project>

@@ -19,7 +19,6 @@ if age > 18:
 else:
     print('age is less than 18')
 
-
 #if elif else
 per = float(input('Enter your percentage: '))
 if per < 35:

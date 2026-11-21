@@ -4,10 +4,10 @@ print(len(list))
 print(list[0])
 list.append(12)
 print(list)
-print(list.count(2))
+print(list.count(1))
 list.insert(1,"python")
 print(list)
-
+print("================>")
 print(list.index(12,7))
 print(list)
 
@@ -28,7 +28,7 @@ print(new_list)
 new_list.append(list1)
 print(new_list)
 print(len(new_list))
-print(new_list[10][1])
+print(new_list[11][2])
 
 
 # list.reverse()
